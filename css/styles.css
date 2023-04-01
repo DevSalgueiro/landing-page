@@ -1,3 +1,106 @@
 * {
     font-family: Nunito;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+:root {
+    --zero: #2e2e2e;
+    --primary: #095da6;
+    --secondary: #008ca7;
+    --third: #095da6;
+    --text-color: #fff;
+    --text-second: #017f8d;
+    --text-third: #61f1dc;
+    --text-fourth: #cccccc;
+}
+
+
+#event-description {
+    background: linear-gradient(rgb(0,0,0,.8), rgb(0,0,0,.8)), url("../img/img01.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--text-color)
+
+}
+
+#disclaimer h2,
+#disclaimer .event-date {
+    color: var(--text-third);
+}
+
+#disclaimer h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#disclaimer .about-event {
+    font-size: 3em;
+    text-transform: uppercase;
+    max-width: 350px;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#disclaimer p {
+    font-size: 1.1em;
+    margin-bottom: .3em;
+}
+
+
+#subscription-form {
+    background-color: var(--text-fourth);
+    padding: 2em;
+    max-width: 22%;
+    border-radius: 10px;
+}
+
+#subscription-form p {
+    font-size: 1.5em;
+    color: var(--zero);
+    margin-bottom: 1em;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.8em;
+}
+
+
+.form-group label {
+    color: var(--zero);
+    margin-bottom: .3em;
+    font-weight: bold;
+}
+
+.form-group input, 
+.form-group select {
+    padding: 6px 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+
+.btn {
+    background-color: var(--primary);
+    color: var(--text-color);
+    text-transform: uppercase;
+    width: 100%;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.btn:hover {
+    opacity: 1;
 }

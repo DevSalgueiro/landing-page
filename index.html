@@ -15,34 +15,52 @@
 
 </head>
 <body>
-    <header id="">
-        <div id="">
+    <header id="event-description">
+        <div id="disclaimer">
 
             <h2>Viagens</h2>
 
-            <p>Os melhores locais para visitar.</p>
+            <p class="about-event">Os melhores locais para visitar.</p>
 
             <p>Melhores opções</p>
 
-            <p>Italia, Holanda, Canada, Japão</p>
+            <p class="event-date">Italia, Holanda, Canada, Japão</p>
 
         </div>
 
-        <div id="">
+        <div id="subscription-form">
 
             <p>Preencha o formulário para receber mais viagens incríveis.</p>
 
             <form>
 
-                <div>
+                <div class="form-group">
                     <label for="name">Nome</label>
                     <input type="text" name="name" placeholder="Digite o seu nome">
                 </div>
 
-                <div>
-                    <label for="name">Nome</label>
-                    <input type="text" name="name" placeholder="Digite o seu nome">
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" placeholder="Digite o seu e-mail">
                 </div>
+
+                <div class="form-group">
+                    <label for="phone">Telefone</label>
+                    <input type="phone" name="phone" placeholder="Digite o seu telefone">
+                </div>
+
+                <div class="form-group">
+                    <label for="interest">Seus interesses</label>
+                    <select name="interest">
+                        <option value="" disabled selected>Selecione</option>
+                        <option value="music">Músicas</option>
+                        <option value="beach">Praias</option>
+                        <option value="sports">Esportes</option>
+                        <option value="other">Outros</option>
+                    </select>
+                </div>
+
+                <input type="submit" class="btn" value="Quero me inscrever">
 
             </form>
 
