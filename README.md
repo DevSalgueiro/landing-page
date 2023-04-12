@@ -12,7 +12,7 @@
 
 <h3> Versão Mobile </h3>
 
-Dimensões: 448 x 926 
+Dimensões: 414 x 736 (Iphone 6/7/8 Plus)
 <br>
 
-![mobile](https://user-images.githubusercontent.com/111023661/231596942-4dc9c3a9-41e4-4208-ae46-e012086780d5.JPG)
+![mob](https://user-images.githubusercontent.com/111023661/231597881-71f0db9a-b018-4a99-ab59-8660381d5d21.jpg)
