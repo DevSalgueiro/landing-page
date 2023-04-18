@@ -1,6 +1,8 @@
 ﻿# Landing page
  
 Landing page developed using HTML, CSS, and JS. In the case of the form, a small JavaScript validation was added.
+
+You can see how the page looks by accessing the link below:
  
 <br>
 <h3> Desktop version </h3>
