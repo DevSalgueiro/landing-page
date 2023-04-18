@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viagens</title>
 
+    <script src="js/scripts.js" defer></script>
+
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,800;1,100;1,200;1,300;1,400&family=Nunito:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400;1,600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    
 
 </head>
 <body>
@@ -28,30 +31,31 @@
 
         </div>
 
+        
         <div id="subscription-form">
 
             <p>Preencha o formulário para receber mais viagens incríveis.</p>
 
-            <form>
+            <form id="form">
 
                 <div class="form-group">
                     <label for="name">Nome</label>
-                    <input type="text" name="name" placeholder="Digite o seu nome">
+                    <input type="text" name="name" placeholder="Digite o seu nome" id="name">
                 </div>
 
                 <div class="form-group">
                     <label for="email">E-mail</label>
-                    <input type="email" name="email" placeholder="Digite o seu e-mail">
+                    <input type="email" name="email" placeholder="Digite o seu e-mail" id="email">
                 </div>
 
                 <div class="form-group">
                     <label for="phone">Telefone</label>
-                    <input type="phone" name="phone" placeholder="Digite o seu telefone">
+                    <input type="phone" name="phone" placeholder="Digite o seu telefone" id="phone">
                 </div>
 
                 <div class="form-group">
                     <label for="interest">Seus interesses</label>
-                    <select name="interest">
+                    <select name="interest" id="interest">
                         <option value="" disabled selected>Selecione</option>
                         <option value="music">Músicas</option>
                         <option value="beach">Praias</option>
@@ -60,9 +64,13 @@
                     </select>
                 </div>
 
-                <input type="submit" class="btn" value="Quero me inscrever">
+                <button type="submit" class="btn">Quero me inscrever</button>
+
+ 
 
             </form>
+
+
         </div>
     </header>
 
