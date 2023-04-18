@@ -1,6 +1,6 @@
 ﻿# Landing page
  
- Developing a landing page using HTML and CSS. The idea is to add JS to the project in the future, such as form validation.
+Landing page developed using HTML, CSS, and JS. In the case of the form, a small JavaScript validation was added.
  
 <br>
 <h3> Desktop version </h3>
