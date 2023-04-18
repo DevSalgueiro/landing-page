@@ -4,7 +4,7 @@ Landing page developed using HTML, CSS, and JS. In the case of the form, a small
 
 You can see how the page looks by accessing the link below:
 
-https://devsalgueiro.github.io/landing-page/
+<a href="https://devsalgueiro.github.io/landing-page" target="_blank">https://devsalgueiro.github.io/landing-page</a> 
  
 <br>
 <h3> Desktop version </h3>
