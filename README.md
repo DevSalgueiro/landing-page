@@ -11,7 +11,6 @@ You can see how the page looks by accessing the link below:
 <li>HTML</li>
 <li>CSS</li>
 <li>JavaScript</li>
-<li>SVG Inject</li>
 </ul>
  
 <br>
