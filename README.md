@@ -6,8 +6,8 @@ You can see how the page looks by accessing the link below:
 
 <a href="https://devsalgueiro.github.io/landing-page" target="_blank">https://devsalgueiro.github.io/landing-page</a> 
 
-🚀 Technologies
-<hr>
+🚀 # Technologies
+
 <ul><li>HTML</li>
 <li>CSS</li>
 <li>JavaScript</li></ul>
